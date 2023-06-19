@@ -1,0 +1,34 @@
+.navbar-wrapper {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem;
+  gap: 12px;
+
+  background: var(--color-footer);
+}
+
+.navbar-wrapper a {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.navbar-wrapper p {
+  cursor: pointer;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-wrapper button {
+  background-color: transparent;
+  color: var(--color-text);
+  border: none;
+  border-radius: 0.5;
+  font-weight: 500;
+  font-size: 1.2rem;
+  cursor: pointer;
+}

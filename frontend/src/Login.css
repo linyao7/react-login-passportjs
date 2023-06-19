@@ -1,0 +1,28 @@
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.login-options-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: var(--card-bg);
+  width: 250px;
+  color: black;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.login-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid var(--color-blog);
+
+  cursor: pointer;
+}
